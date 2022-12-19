@@ -59,7 +59,7 @@ a {
   line-height: 1.17;
 }
 .agency,
-.poftfolio,
+.portfolio,
 .contact {
   color: #212121;
 }
@@ -139,6 +139,7 @@ footer {
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
+  border: 0;
 }
 .order-button:hover {
   color: #ffffff;
@@ -163,4 +164,4 @@ button:hover {
   line-height: 1.62;
   text-align: center;
   border: 0;
-}
+} 
