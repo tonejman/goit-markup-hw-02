@@ -1,0 +1,166 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+}
+a:hover,
+a:focus {
+  color: #2196f3;
+}
+a {
+  text-decoration: none;
+}
+.header-primary {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  top: 280px;
+  left: 452px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+.header-secondary {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: #212121;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #212121;
+}
+.web {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  color: #2196f3;
+}
+.studio-header {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  color: #000;
+}
+.studio-footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  color: #ffffff;
+}
+.page {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+}
+.contact-details {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+}
+.agency,
+.poftfolio,
+.contact {
+  color: #212121;
+}
+.mail,
+.phone {
+  color: #757575;
+}
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+.job-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #757575;
+}
+.project-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+.desinger-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  color: #212121;
+}
+.main-block {
+  width: 1600px;
+  height: 600px;
+  top: 80px;
+  left: 0px;
+  background-color: #2f303a;
+}
+footer {
+  width: 1600px;
+  height: 252px;
+  top: 2097px;
+  left: 0px;
+  background-color: #2f303a;
+}
+.address-footer {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+}
+.address-street {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  color: #ffffff;
+}
+.address-mail,
+.address-phone {
+  color: #ffffff60;
+}
+.order-button {
+  width: 200px;
+  height: 50px;
+  background-color: #ffffff60;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+}
+.order-button:hover {
+  color: #ffffff;
+}
+button:hover {
+  background-color: #2196f3;
+}
+.switch {
+  width: 114px;
+  height: 38px;
+  color: #ffffff25;
+  cursor: pointer;
+}
+.switch:hover {
+  color: #ffffff;
+}
+.switch {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  border: 0;
+}
