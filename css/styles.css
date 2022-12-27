@@ -1,13 +1,69 @@
+:root {
+  --primary-color: #757575;
+  --secondary-color: #212121;
+  --blue-font-color: #2196f3;
+  --white-font-color: #ffffff;
+  --footer-color: #ffffff60;
+  --black-font-color: #000;
+  --buttons-portfolio-color: #ffffff25;
+  --background-block-color: #2f303a;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #757575;
 }
-a:hover,
-a:focus {
-  color: #2196f3;
+body,
+.mail,
+.phone {
+  color: var(--primary-color);
 }
-a {
+.agency,
+.portfolio,
+.contact {
+  color: var(--secondary-color);
+}
+.agency:hover,
+.agency:focus {
+  color: var(--blue-font-color);
+}
+.portfolio:hover,
+.portfolio:focus {
+  color: var(--blue-font-color);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--blue-font-color);
+}
+.mail,
+.phone,
+.agency,
+.portfolio,
+.contact,
+.address-mail,
+.address-phone,
+.link-logo
+{
   text-decoration: none;
+}
+.mail:hover,
+.mail:focus {
+  color: var(--blue-font-color);
+}
+.phone:hover,
+.phone:focus {
+  color: var(--blue-font-color);
+}
+.address-mail,
+.address-phone {
+  color: var(--footer-color);
+}
+.address-mail:hover,
+.address-mail:focus {
+  color: var(--blue-font-color);
+}
+.address-phone:hover,
+.address-phone:focus {
+  color: var(--blue-font-color);
 }
 .header-primary {
   font-weight: 900;
@@ -17,38 +73,37 @@ a {
   left: 452px;
   text-align: center;
   letter-spacing: 3px;
-  color: #ffffff;
+  color: var(--white-font-color);
 }
 .header-secondary {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: #212121;
+  color: var(--secondary-color);
 }
-
 .header {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
-  color: #212121;
+  color: var(--secondary-color);
 }
 .web {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  color: #2196f3;
+  color: var(--blue-font-color);
 }
 .studio-header {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  color: #000;
+  color: var(--black-font-color);
 }
 .studio-footer {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  color: #ffffff;
+  color: var(--white-font-color);
 }
-.page {
+.header-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
@@ -58,58 +113,48 @@ a {
   font-size: 14px;
   line-height: 1.17;
 }
-.agency,
-.portfolio,
-.contact {
-  color: #212121;
-}
-.mail,
-.phone {
-  color: #757575;
-}
 .description {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--primary-color);
 }
 .job-name {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
-  color: #757575;
+  color: var(--primary-color);
 }
 .project-name {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  color: #757575;
 }
 .project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  color: #212121;
+  color: var(--secondary-color);
 }
 .desinger-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
-  color: #212121;
+  color: var(--secondary-color);
 }
 .main-block {
   width: 1600px;
   height: 600px;
   top: 80px;
   left: 0px;
-  background-color: #2f303a;
+  background-color: var(--background-block-color);
 }
-footer {
+.footer-block {
   width: 1600px;
   height: 252px;
   top: 2097px;
   left: 0px;
-  background-color: #2f303a;
+  background-color: var(--background-block-color);
 }
 .address-footer {
   font-weight: 400;
@@ -124,16 +169,14 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   text-align: left;
-  color: #ffffff;
+  color: var(--white-font-color);
 }
-.address-mail,
-.address-phone {
-  color: #ffffff60;
-}
+
 .order-button {
   width: 200px;
   height: 50px;
-  background-color: #ffffff60;
+  background-color: var(--blue-font-color);
+  color: var(--white-font-color);
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -141,27 +184,23 @@ footer {
   text-align: center;
   border: 0;
 }
-.order-button:hover {
-  color: #ffffff;
-}
-button:hover {
-  background-color: #2196f3;
-}
+
 .switch {
   width: 114px;
   height: 38px;
-  color: #ffffff25;
+  color: var(--buttons-portfolio-color);
   cursor: pointer;
 }
 .switch:hover {
-  color: #ffffff;
+  background-color: var(--blue-font-color);
+  color: var(--white-font-color);
 }
 .switch {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--secondary-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   border: 0;
-} 
+}
