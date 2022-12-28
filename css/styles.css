@@ -57,8 +57,6 @@ body,
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  top: 280px;
-  left: 452px;
   text-align: center;
   letter-spacing: 3px;
   color: var(--white-font-color);
@@ -102,19 +100,14 @@ body,
   line-height: 1.17;
 }
 .description {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--primary-color);
 }
 .job-name {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
-  color: var(--primary-color);
 }
 .project-name {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
@@ -133,33 +126,26 @@ body,
 .main-block {
   width: 1600px;
   height: 600px;
-  top: 80px;
-  left: 0px;
   background-color: var(--background-block-color);
 }
 .footer-block {
   width: 1600px;
   height: 252px;
-  top: 2097px;
-  left: 0px;
   background-color: var(--background-block-color);
 }
 .address-footer {
-  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   text-align: left;
 }
 .address-street {
-  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   text-align: left;
   color: var(--white-font-color);
 }
-
 .order-button {
   width: 200px;
   height: 50px;
@@ -172,7 +158,6 @@ body,
   text-align: center;
   border: 0;
 }
-
 .switch {
   width: 114px;
   height: 38px;
